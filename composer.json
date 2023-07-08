@@ -1,0 +1,28 @@
+{
+    "name": "elfcms/search",
+    "description": "",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Klassen",
+            "email": "maximklassen@mail.de"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "elfcms/basic": "^1.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elfcms\\Search\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elfcms\\Search\\Providers\\ElfModuleProvider"
+            ]
+        }
+    }
+}
